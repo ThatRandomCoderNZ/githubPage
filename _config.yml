@@ -1,16 +1,15 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: A blog about good code
+description: A blog about my projects and accomplishments
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "https://thatrandomcodernz.github.io/githubPage/" 
 # User settings
 username: Ethan Mitchell
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_description: I am an experienced Software Developer with a passion for creating high quality software.
 user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+email: ethan.en.mitchell@gmail.com
+linkedin_username: Ethan Mitchell
+github_username:  ThatRandomCoderNZ
 
 # Google-analytics
 google-analytics:
