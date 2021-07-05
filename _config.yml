@@ -9,7 +9,12 @@ user_description: I am an experienced Software Developer with a passion for crea
 user_title: Software Developer
 email: ethan.en.mitchell@gmail.com
 linkedin_username: Ethan Mitchell
+something: /assets/img/mountains.jpg
 github_username:  ThatRandomCoderNZ
+
+collections:
+  projects:
+    output: true
 
 # Google-analytics
 google-analytics:
