@@ -7,8 +7,8 @@
         <div id="particles-js" class="particles-navbar">
             <nav class="navbar">
                 <a class="nav-item" href={{"/#about" | prepend: site.baseurl}}>About Me</a>
-                <a class="nav-title nav-item">{{site.username}}</a>
-                <a class="nav-item">Projects</a>
+                <a class="nav-title nav-item" href={{"/#" | prepend: site.baseurl}}>Ethan Mitchell</a>
+                <a class="nav-item" href={{"/#projects" | prepend: site.baseurl}}>Projects</a>
             </nav>
         </div>
         <section class="project-section">
@@ -17,19 +17,23 @@
                 <h1>{{ page.title }}</h1>
             </div>
 
-            <div class="call-to-action">
-                <a href="{{page.action-dest}}">{{page.action}}</a>
+            <div class="thumbnail">
+                <img alt="{{page.thumbnail-alt}}" src="{{ page.thumbnail | prepend: "../" | prepend: site.baseurl }}" />
             </div>
-            
-            <a href="{{"/" | prepend: site.baseurl}}">HOME</a>
+
+            <div class="call-to-action" >
+                <a class="project-link" href="{{page.action-dest}}">{{page.action}}</a>
+            </div>
+
+
             <div class="project-content">
                 {{ content }}
             </div>
         </section>
-        
+        <a class="up" href="#" data-scroll><i class="icon fa fa-chevron-up" aria-hidden="true"></i></a>
         
     </body>
-
+    
     {% include footer.html %}
     
 </html>

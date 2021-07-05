@@ -4,12 +4,12 @@
     position: relative;
     width: 50%;
     margin: 0 auto;
-    padding-top: 20vh;
+    padding-top: 10vh;
     text-decoration: none;
 }
 
 .project-title {
-    margin: auto auto;
+    margin: 40px auto 30px auto;
 }
 
 .navbar {
@@ -24,9 +24,11 @@
 }
 
 .nav-item {
+    z-index: 5;
     color: white;
     font-size: 16px;
     text-align: center;
+    text-decoration: none;
     
 }
 
@@ -35,6 +37,20 @@
     font-size: 22px;
 }
 
+.thumbnail {
+    align-self: center;
+    margin: 2vh 0;
+}
+
+
+.call-to-action {
+    display: inline-block;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 5px 10px;
+
+}
 
 
 
@@ -51,6 +67,37 @@
     .particles-js-canvas-el {
       width:100% !important;
       height:10vh !important;
+    }
+  }
+
+
+
+  .up {
+    color: black;
+    position: relative;
+    bottom: -100px;
+    width: 100%;
+    margin: 40px auto 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    .icon {
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        left: 0%;
+        width: 100px;
+        height: 100px;
+        fill: black;
+        -webkit-animation: pulse 1.3s infinite;
+        animation: pulse 1.3s infinite;
+        &:hover {
+          color: $sec;
+        }
+        &:active {
+          color: $sec;
+        }
     }
   }
 

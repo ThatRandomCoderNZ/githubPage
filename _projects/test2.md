@@ -4,6 +4,8 @@ description: This is an important project that really displays how much I know a
 skills: Java, Test Driven Development, Continuous Integration
 thumbnail: assets/img/mountains.jpg
 thumbnail-alt: mountains
+action: Demo
+action-dest: 
 ---
 
 General content that can be displayed and what not

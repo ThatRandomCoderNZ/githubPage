@@ -5,7 +5,7 @@ skills: "C#, ASP.NET, Agile Methodologies"
 thumbnail: assets/img/mountains.jpg
 thumbnail-alt: mountains
 action: Demo
-action-dest: 
+action-dest: /
 ---
 
 General content that can be displayed and what not
