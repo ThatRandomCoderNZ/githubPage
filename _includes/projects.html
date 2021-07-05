@@ -1,29 +1,28 @@
+---
+---
+
 <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
-<div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
+
+{% for project in site.projects %}
+  {% assign alternation = forloop.index | modulo: 2 %}
+    <div class="user-projects">
+      <div class="{% if alternation == 0 %} images-right {% else %}images-left{% endif %}">
+        <img alt="{{project.thumbnail-alt}}" src="{{ "{{project.thumbnail}}" | prepend: site.baseurl }}" />
+      </div>
+      <div class="{% if alternation == 0 %}contents{% else %}contents-right{% endif %}">
+        <h3> {{project.title}}</h3>
+        <ul>
+          {% assign skills = project.skills | split: ", " %}
+          {% for skill in skills %}
+            <li>{{skill}}</li>
+          {% endfor %}
+        </ul>
+        <p>{{project.description}}</p>
+        <a class="project-link" href="{{project.url}}">Check it out</a>
+      </div>
+    </div>
+{% endfor %}
+
 </div>
