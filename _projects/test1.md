@@ -1,9 +1,9 @@
 ---
-title: Example Project No.2
-description: This is an important project that really displays how much I know about great code. Quite frankly, I am a coding genius.
-skills: "C#, ASP.NET, Agile Methodologies"
-thumbnail: assets/img/mountains.jpg
-thumbnail-alt: mountains
+title: A Fresh Take on Snake
+description: A mobile game that I developed, inspired by the after-image that application windows leave behind on a slow computer.
+skills: "C#, Unity, Google Playstore"
+thumbnail: assets/img/SnakeGameEditor.png
+thumbnail-alt: Unity Editor Screenshot
 action: Demo
 action-dest: /
 ---
