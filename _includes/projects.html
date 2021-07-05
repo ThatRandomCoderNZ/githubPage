@@ -20,7 +20,7 @@
           {% endfor %}
         </ul>
         <p>{{project.description}}</p>
-        <a class="project-link" href="{{project.url}}">Check it out</a>
+        <a class="project-link" href="{{project.url | prepend: site.baseurl}}">Check it out</a>
       </div>
     </div>
 {% endfor %}
