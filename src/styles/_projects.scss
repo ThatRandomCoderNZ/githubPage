@@ -15,7 +15,6 @@
   img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
   }
   h5 {
     margin: 0;
@@ -71,7 +70,7 @@
 .project-link {
   display: inline-block;
   margin: 10px 0px;
-  padding: 5px;
+  padding: 5px 15px;
   color: $main;
   background-color: transparent;
   border: 1px solid $main;

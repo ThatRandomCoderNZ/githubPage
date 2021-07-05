@@ -1,5 +1,6 @@
 #particles-js {
-  background: $main;
+  background: linear-gradient($main, $grad);
+  
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -24,7 +25,11 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
+    transition: top 3s, left 3s, font-size 3s;
     font-size: 50px;
+    top: 0px;
+    left: 0px;
+    position: relative;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -43,6 +48,17 @@
       font-size: 40px;
     }
   }
+}
+
+
+.nav-element {
+  position: fixed !important;
+  font-size: 40px !important;
+  left: -35vw !important;
+  top: -30vh !important;
+
+  
+  
 }
 
 .header-links {
