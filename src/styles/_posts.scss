@@ -1,0 +1,56 @@
+.project-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20vh;
+    text-decoration: none;
+}
+
+.project-title {
+    margin: auto auto;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 10vh;   
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.nav-item {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.nav-title {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
+
+
+.particles-navbar{
+    background: linear-gradient($main, $grad);
+    position: absolute;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 10vh !important;
+    max-height: 10vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .particles-js-canvas-el {
+      width:100% !important;
+      height:10vh !important;
+    }
+  }
+

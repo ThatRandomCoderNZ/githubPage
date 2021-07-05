@@ -4,11 +4,32 @@
 <html lang="en">
     {% include head.html %}
     <body>
-        <h1>{{ page.title }}</h1>
+        <div id="particles-js" class="particles-navbar">
+            <nav class="navbar">
+                <a class="nav-item" href={{"/#about" | prepend: site.baseurl}}>About Me</a>
+                <a class="nav-title nav-item">{{site.username}}</a>
+                <a class="nav-item">Projects</a>
+            </nav>
+        </div>
+        <section class="project-section">
+            
+            <div class="project-title">
+                <h1>{{ page.title }}</h1>
+            </div>
 
-        <a href="{{"/" | prepend: site.baseurl}}">HOME</a>
-
-        {{ content }}
-
-        {% include footer.html %}
+            <div class="call-to-action">
+                <a href="{{page.action-dest}}">{{page.action}}</a>
+            </div>
+            
+            <a href="{{"/" | prepend: site.baseurl}}">HOME</a>
+            <div class="project-content">
+                {{ content }}
+            </div>
+        </section>
+        
+        
     </body>
+
+    {% include footer.html %}
+    
+</html>
