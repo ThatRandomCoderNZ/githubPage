@@ -22,4 +22,4 @@ Development
 
 This game was developed in Unity, using C# as the main scripting language.
 
-![Snake Screenshot](../assets/img/SnakeGameEditor.png)
+![Snake Screenshot](../assets/img/SnakeGameEditor.PNG)
