@@ -1,8 +1,8 @@
 # Site settings
 title: A blog about good code
 description: A blog about my projects and accomplishments
-baseurl: "/githubPage/" # the subpath of your site, e.g. /blog
-url: "https://thatrandomcodernz.github.io/githubPage/" 
+#baseurl: "/githubPage" # the subpath of your site, e.g. /blog
+#url: "https://thatrandomcodernz.github.io/githubPage" 
 # User settings
 username: Ethan Mitchell
 user_description: I am an experienced Software Developer with a passion for creating high quality software.
