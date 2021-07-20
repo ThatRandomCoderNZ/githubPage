@@ -2,7 +2,7 @@
 title: A Fresh Take on Snake
 description: A mobile game that I developed, inspired by the after-image that application windows leave behind on a slow computer.
 skills: "C#, Unity, Google Playstore"
-thumbnail: assets/img/SnakeGameEditor.png
+thumbnail: assets/img/SnakeGameEditor.PNG
 thumbnail-alt: Unity Editor Screenshot
 action: Demo
 action-dest: /
@@ -22,4 +22,4 @@ Development
 
 This game was developed in Unity, using C# as the main scripting language.
 
-![Snake Screenshot](../assets/img/SnakeGameEditor.PNG)
+![Snake Screenshot](assets/img/SnakeGameEditor.PNG)
