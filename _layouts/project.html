@@ -17,9 +17,7 @@
                 <h1>{{ page.title }}</h1>
             </div>
 
-            <div class="thumbnail">
-                <img alt="{{page.thumbnail-alt}}" src="{{ page.thumbnail | prepend: "../" | prepend: site.baseurl }}" />
-            </div>
+            <img alt="{{page.thumbnail-alt}}" src="{{ page.thumbnail | prepend: "../" | prepend: site.baseurl }}" />
 
             <div class="call-to-action" >
                 <a class="project-link" href="{{page.action-dest}}">{{page.action}}</a>

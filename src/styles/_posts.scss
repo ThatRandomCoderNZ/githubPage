@@ -8,6 +8,19 @@
     text-decoration: none;
 }
 
+.project-section img {
+    position: relative;
+
+    margin: 2vh auto;
+    max-width: 80%;
+
+    box-shadow: -5px 3px 20px;
+}
+
+.project-content img {
+    left: 10%;
+}
+
 .project-title {
     margin: 40px auto 30px auto;
 }
@@ -21,6 +34,11 @@
     align-content: center;
     align-items: center;
     justify-items: stretch;
+}
+
+blockquote {
+    padding: 2px 0 2px 10px;
+    border-left: 8px rgba(202, 202, 202, 0.692) solid;
 }
 
 .nav-item {
@@ -37,10 +55,6 @@
     font-size: 22px;
 }
 
-.thumbnail {
-    align-self: center;
-    margin: 2vh 0;
-}
 
 
 .call-to-action {
@@ -51,7 +65,6 @@
     padding: 5px 10px;
 
 }
-
 
 
 .particles-navbar{
