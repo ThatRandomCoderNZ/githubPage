@@ -1,6 +1,19 @@
+const doc = document.documentElement;
+
+/*
+window.addEventListener('click', () => {
+  let header = document.getElementById("site-header");
+
+  header.classList.add('nav-element');
+  
+});
+*/
+
 /* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
   new SweetScroll({/* some options */});
+
+
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
@@ -115,4 +128,9 @@ document.addEventListener("DOMContentLoaded", function () {
     "retina_detect": true
   });
 
+
+
 }, false);
+
+
+
