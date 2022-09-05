@@ -4,8 +4,8 @@ description: A mobile game that I developed, inspired by the after-image that ap
 skills: "C#, Unity, Google Playstore"
 thumbnail: assets/img/SnakeGameEditor.PNG
 thumbnail-alt: Unity Editor Screenshot
-action: Demo
-action-dest: /
+action: Repo
+action-dest: https://github.com/ThatRandomCoderNZ/Snake
 ---
 
 The Snake Game
