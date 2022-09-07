@@ -8,7 +8,7 @@
 {% for project in site.projects %}
   {% assign alternation = forloop.index | modulo: 2 %}
     <div class="user-projects">
-      <hr style="width: 80%;" />
+      <hr class="project-divider"/>
       <div class="{% if alternation == 0 %} images-right {% else %}images-left{% endif %}">
         <img alt="{{project.thumbnail-alt}}" src="{{ "{{project.thumbnail}}" | prepend: site.baseurl }}" />
       </div>
