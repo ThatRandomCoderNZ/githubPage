@@ -1,13 +1,12 @@
 # Site settings
-title: A blog about good code
-description: A blog about my projects and accomplishments
+title: A blog about code stuff
+description: A blog about what I get up to in my spare time.
 #baseurl: "/githubPage" # the subpath of your site, e.g. /blog
 #url: "https://thatrandomcodernz.github.io/githubPage" 
 # User settings
 username: Ethan Mitchell
-user_description: "I'm a junior level Software Developer from New Zealand, with quality experience across a wide range of technical disciplines. In conjunction with my Software 
-Engineering Degree, I'm looking for an opportunity to gain commercial experience with the right company."
-user_title: Software Developer
+user_description: "I'm a problem solver whose medium of choice is code."
+user_title: Software Engineer
 email: ethan.en.mitchell@gmail.com
 linkedin_username: Ethan Mitchell
 github_username:  ThatRandomCoderNZ

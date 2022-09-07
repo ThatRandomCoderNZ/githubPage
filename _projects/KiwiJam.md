@@ -2,7 +2,7 @@
 title: Dog Onleashed
 description: A mobile game that I developed, inspired by the after-image that application windows leave behind on a slow computer.
 skills: "Unreal Engine 5, Animation"
-thumbnail: assets/img/onleashed-thumb.PNG
+thumbnail: assets/img/onleashed-thumb.png
 thumbnail-alt: Dog Onleashed Thumbnail
 action: Check it out
 action-dest: https://tomshepnz.itch.io/dog-onleashed
