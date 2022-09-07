@@ -15,7 +15,7 @@ This webapp was a quick prototype for a business concept a friend approached me 
 
 We put a lot of time into researching potential methods for delivering SMS from a webapp. Popular user engagement tools like at https://www.twilio.com/ had extremely high rates for NZ numbers, around 10c per text. This meant we had to determine a new method of SMS delivery. For a long term solution I was relatively confident that we would be able to set up our own SMS gateway to handle requests from the webapp. For a shortterm solution and to prove the concept we settled on using https://textfoo.com/, a service that allowed an android phone to act as an SMS gateway.
 
-![Snake Screenshot](../assets/img/automater-send.png)
+![SMS Screenshot](../assets/img/automater-send.png)
 
 With the technology in place we were able to create an application that would actually deliver unlimited bulk personalised SMS within the price range of a single mobile plan.  
 

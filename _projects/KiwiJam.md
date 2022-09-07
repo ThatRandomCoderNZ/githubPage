@@ -15,4 +15,6 @@ Honestly, I very rarely play video games, but when a couple of old high school f
 
 It was a great chance to get more familiar with Unreal Engine 5 and a way to apply my programming knowledge in a new context. Honestly though, it was just great to see everybody working their craft. From 3D artists to Unreal Developers, everyone pooled their skills to create a solid final result.
 
+![game_screenshot](../assets/img/dog-onleashed-gameplay.png)
+
 With the theme: Together, the team got runner up for style with our game - Dog Onleashed. A cute endless runner where you play as a dog dragging his surprisingly fit owner behind him. Check it out for yourself at https://tomshepnz.itch.io/dog-onleashed 
