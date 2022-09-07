@@ -14,9 +14,7 @@
   }
 }
 
-.header-text-links:hover {
-  font-weight: bold;
-}
+
 
 .header {
   z-index: 1;
@@ -138,5 +136,9 @@
       &:active {
         color: $sec;
       }
+  }
+
+  .header-text-links:hover {
+    font-weight: bolder;
   }
 }
