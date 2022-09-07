@@ -28,6 +28,11 @@
   }
 }
 
+.user-projects::before{
+  width: 80%;
+  border-bottom: 2px grey solid;
+}
+
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;
