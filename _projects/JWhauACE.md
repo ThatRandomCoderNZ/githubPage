@@ -1,7 +1,7 @@
 ---
 title: WhauACE
 description: An Android app developed to aid a community adult education center in connecting job seekers with open positions.
-skills: "Unreal Engine 5, Animation"
+skills: "Android, Java, Vue, Firebase"
 thumbnail: assets/img/whauace-backend.png
 thumbnail-alt: WhauACE backend
 action: Coming Soon
