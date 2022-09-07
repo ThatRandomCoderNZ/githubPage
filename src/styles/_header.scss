@@ -73,6 +73,9 @@
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
+    &hover {
+      font-weight: bolder;
+    }
   }
 }
 
